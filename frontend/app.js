@@ -214,11 +214,15 @@ $("#demo-form").addEventListener("submit", async (e) => {
 (async () => {
   $("#link-data").href = `${API}/data.json`;
   $("#link-verif").href = `${API}/verification.json`;
+  // Embedded globals (set by the standalone single-file build) win over
+  // network fetches — that's what lets toolkit-scout.html work from disk.
   try {
-    const data = await (await fetch(`${API}/data.json`)).json();
+    const data = window.TS_DATA || await (await fetch(`${API}/data.json`)).json();
     renderPatterns(data.apps);
     renderTable(data.apps);
   } catch { $("#stat-tiles").innerHTML = tile("offline", "backend unreachable — table unavailable"); }
-  try { renderVerification(await (await fetch(`${API}/verification.json`)).json()); }
-  catch { renderVerification(null); }
+  try {
+    renderVerification(window.TS_VERIF ||
+      await (await fetch(`${API}/verification.json`)).json());
+  } catch { renderVerification(null); }
 })();
