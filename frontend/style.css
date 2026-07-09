@@ -92,12 +92,22 @@ a { color: var(--accent); }
   content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700;
 }
 
-/* bordered prose panels (agent section) */
+/* bordered prose panels (agent section) — styled like the results table:
+   same card shell, h3s rendered as table-header bars */
 .panel {
-  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-  padding: 20px 24px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(16,24,40,.05); padding: 0; overflow: hidden;
+  align-self: start;
 }
-.panel h3:first-child { margin-top: 0; }
+.panel h3 {
+  margin: 0; padding: 11px 22px; background: var(--card2);
+  font: 600 11.5px var(--mono); text-transform: uppercase; letter-spacing: .07em;
+  color: var(--muted); border-bottom: 1px solid var(--line);
+}
+.panel h3 + * { margin-top: 14px; }
+.panel ol, .panel ul { margin: 14px 0 18px; padding: 0 22px 0 40px; }
+.panel > *:not(h3):not(:last-child) { border-bottom: 0; }
+.panel h3:not(:first-child) { border-top: 1px solid var(--line); }
 
 /* ── tables (matrix + main) ────────────────────────────────── */
 .scroll-x {
