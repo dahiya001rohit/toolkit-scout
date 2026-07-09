@@ -1,0 +1,2987 @@
+{
+  "generated_at": "2026-07-09T13:40:12+00:00",
+  "total": 100,
+  "apps": [
+    {
+      "id": "b29e88",
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "hint": "salesforce.com",
+      "result": {
+        "description": "Automate better sales, service, and marketing with humans and AI agents working together on one trusted, agentic CRM platform.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "trial",
+        "access_evidence_url": "https://www.salesforce.com/in/?ir=1",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.salesforce.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.salesforce.com",
+        "buildability": "ready",
+        "buildability_reason": "Public APIs and MCP tools available for agent integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.salesforce.com/in/?ir=1",
+        "https://developer.salesforce.com",
+        "https://developer.salesforce.com/events"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "ada98f",
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "hint": "hubspot.com",
+      "result": {
+        "description": "All of HubSpot's marketing, sales, and customer service software on one agentic platform.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.hubspot.com",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "APIs are referenced but no auth or endpoint details are provided",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.hubspot.com/",
+        "https://developers.hubspot.com",
+        "https://developers.hubspot.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "82d20a",
+      "name": "Pipedrive",
+      "category": "CRM and Sales",
+      "hint": "pipedrive.com",
+      "result": {
+        "description": "Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.pipedrive.com",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": "https://developers.pipedrive.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "Public API and sandbox are available, but authentication details are not specified in the provided text.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.pipedrive.com/",
+        "https://developers.pipedrive.com",
+        "https://developers.pipedrive.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "c6d5c8",
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "hint": "attio.com",
+      "result": {
+        "description": "Attio is the AI CRM that builds pipeline, advances deals, and grows accounts around the clock.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://docs.attio.com/rest-api/overview",
+        "access": "self_serve",
+        "access_evidence_url": "https://attio.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.attio.com/rest-api/overview",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.attio.com/docs/overview",
+        "buildability": "ready",
+        "buildability_reason": "Attio provides a public REST API and an MCP for building custom integrations and automations.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://attio.com",
+        "https://docs.attio.com/docs/overview",
+        "https://docs.attio.com/rest-api/overview"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:24+00:00"
+    },
+    {
+      "id": "5a76f6",
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "hint": "twenty.com",
+      "result": {
+        "description": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.twenty.com/getting-started/introduction",
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "Insufficient information to determine buildability",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://twenty.com",
+        "https://developers.twenty.com",
+        "https://docs.twenty.com/getting-started/introduction"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:24+00:00"
+    },
+    {
+      "id": "8b9f98",
+      "name": "Podio",
+      "category": "CRM and Sales",
+      "hint": "podio.com",
+      "result": {
+        "description": "Work Management Platform | Streamline Collaboration & Workflows",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developers.podio.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.podio.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.podio.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API\u2011key authentication and full\u2011functionality documentation enables building an AI\u2011agent toolkit",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://podio.com",
+        "https://developers.podio.com",
+        "https://podio.com/login?provider=podio&return_to=https%3A%2F%2Fpodio.com%2Fdocs"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "aaca79",
+      "name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "hint": "zoho.com/crm",
+      "result": {
+        "description": "Zoho CRM supercharges business with intelligent automation and intuitive design, built with AI at its core",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://www.zoho.com/en-in/crm/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://www.zoho.com/developer/",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://www.zoho.com/developer/",
+        "buildability": "ready",
+        "buildability_reason": "Zoho provides APIs, low-code and pro-code tools for building custom apps and integrations",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.zoho.com/en-in/crm/",
+        "https://www.zoho.com/developer/",
+        "https://docs.zoho.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:24+00:00"
+    },
+    {
+      "id": "4c6a0c",
+      "name": "Close",
+      "category": "CRM and Sales",
+      "hint": "close.com",
+      "result": {
+        "description": "Close is a sales CRM built for teams that sell, combining calling, email, SMS, pipeline management, reporting, and an AI sales agent named Chloe into a single platform.",
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developer.close.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://close.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.close.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.close.com",
+        "buildability": "ready",
+        "buildability_reason": "The Close Developer Platform provides a REST API, webhooks, and an MCP server for building integrations and automating workflows.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://close.com",
+        "https://developer.close.com",
+        "https://api.close.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:24+00:00"
+    },
+    {
+      "id": "bc60e6",
+      "name": "Copper",
+      "category": "CRM and Sales",
+      "hint": "copper.com",
+      "result": {
+        "description": "Copper is a CRM software that helps businesses manage contacts, track deals, and automate tasks",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developer.copper.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://www.copper.com/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.copper.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Copper provides a RESTful API with JSON-formatted responses to access most Copper resources",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.copper.com/",
+        "https://docs.copper.com",
+        "https://developer.copper.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:28+00:00"
+    },
+    {
+      "id": "975ca0",
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "hint": "api.docs.dealcloud.com",
+      "result": {
+        "description": "DealCloud provides a comprehensive API for building custom integrations, automating workflows, and exploring advanced use cases",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
+        "access": "self_serve",
+        "access_evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://api.docs.dealcloud.com/docs",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://api.docs.dealcloud.com",
+        "buildability": "ready",
+        "buildability_reason": "API documentation and guides are provided",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://api.docs.dealcloud.com",
+        "https://api.docs.dealcloud.com/docs",
+        "https://api.docs.dealcloud.com/docs/apikeys"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:26:38+00:00"
+    },
+    {
+      "id": "c95df5",
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "hint": "zendesk.com",
+      "result": {
+        "description": "Transform Customer & Employee Service with AI Agents",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://developer.zendesk.com/api-reference/",
+        "access": "trial",
+        "access_evidence_url": "https://developer.zendesk.com/documentation/",
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.zendesk.com/api-reference/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public AI Agents API is documented and accessible for integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.zendesk.com/in/#georedirect",
+        "https://developer.zendesk.com/documentation/",
+        "https://developer.zendesk.com/api-reference/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "779e02",
+      "name": "Intercom",
+      "category": "Support and Helpdesk",
+      "hint": "intercom.com",
+      "result": {
+        "description": "Intercom is a helpdesk with a natively integrated AI Agent, Fin, that enables perfect customer experiences by improving every customer conversation.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "trial",
+        "access_evidence_url": "https://www.intercom.com/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.intercom.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Intercom has a developer platform with APIs and SDKs for building custom apps and integrations.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.intercom.com/",
+        "https://developers.intercom.com",
+        "https://www.intercom.com/help/en/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:27:08+00:00"
+    },
+    {
+      "id": "681b6a",
+      "name": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "hint": "freshdesk.com",
+      "result": {
+        "description": "Freshdesk is an AI-powered platform for modern customer service that handles complexity while teams build connections in a central workspace.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "Insufficient information about the API and its capabilities.",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://www.freshworks.com/freshdesk/",
+        "https://developers.freshdesk.com",
+        "https://developer.freshdesk.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:27:24+00:00"
+    },
+    {
+      "id": "2a7f61",
+      "name": "Front",
+      "category": "Support and Helpdesk",
+      "hint": "front.com",
+      "result": {
+        "description": "Customer service platform \u2014 powered by AI, designed for humans",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://dev.frontapp.com/docs/welcome",
+        "access": "self_serve",
+        "access_evidence_url": "https://dev.frontapp.com/docs/welcome",
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://dev.frontapp.com/docs/welcome",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://dev.frontapp.com/docs/welcome",
+        "buildability": "ready",
+        "buildability_reason": "Public API with documentation, OAuth authentication, and free developer environment enable immediate integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://front.com",
+        "https://front.com/product/integrate-with-customer-service-apps-front",
+        "https://dev.frontapp.com/docs/welcome"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "89e44c",
+      "name": "Pylon",
+      "category": "Support and Helpdesk",
+      "hint": "usepylon.com",
+      "result": {
+        "description": "AI-native B2B support platform that tracks customer issues across any channel, automates with AI, and provides omnichannel support, knowledge base, and AI agents.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://docs.usepylon.com/pylon-docs",
+        "access": "trial",
+        "access_evidence_url": "https://www.usepylon.com/",
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.usepylon.com/pylon-docs",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.usepylon.com/pylon-docs",
+        "buildability": "partial",
+        "buildability_reason": "API documentation exists but public access details are unclear",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.usepylon.com/",
+        "https://docs.usepylon.com/pylon-docs",
+        "https://www.usepylon.com/knowledge-base"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "18e987",
+      "name": "LiveAgent",
+      "category": "Support and Helpdesk",
+      "hint": "liveagent.com",
+      "result": {
+        "description": "LiveAgent combines an all-in-one customer service platform with AI chatbot, live chat, ticketing, and call center",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "Lack of API documentation",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://www.liveagent.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:28:24+00:00"
+    },
+    {
+      "id": "2bf9d8",
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "hint": "plain.com",
+      "result": {
+        "description": "Plain is AI support infrastructure that enables B2B teams to build anything \u2013 no-code or all-code.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://www.plain.com/docs/graphql/authentication",
+        "access": "self_serve",
+        "access_evidence_url": "https://www.plain.com/",
+        "api_type": "graphql",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://www.plain.com/docs/graphql/introduction",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://www.plain.com/docs/graphql/introduction",
+        "buildability": "ready",
+        "buildability_reason": "The API is well-documented and has a wide range of features.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.plain.com/",
+        "https://www.plain.com/docs/graphql/introduction",
+        "https://www.plain.com/docs/graphql/authentication"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:28:53+00:00"
+    },
+    {
+      "id": "f81ee3",
+      "name": "Help Scout",
+      "category": "Support and Helpdesk",
+      "hint": "helpscout.com",
+      "result": {
+        "description": "Help Scout brings customer insights, team collaboration, and thoughtful AI together so every interaction is connected to the last.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://developer.helpscout.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "API is available but no information is provided about the scope of the API or the level of access it provides",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.helpscout.com/",
+        "https://docs.helpscout.com",
+        "https://developer.helpscout.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:28:58+00:00"
+    },
+    {
+      "id": "9ee4e3",
+      "name": "Gorgias",
+      "category": "Support and Helpdesk",
+      "hint": "gorgias.com",
+      "result": {
+        "description": "The Conversational AI platform for Ecommerce",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.gorgias.com",
+        "api_type": "rest",
+        "api_breadth": "unknown",
+        "api_evidence_url": "https://developers.gorgias.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "API documentation and OpenAPI endpoints are available, but authentication details are not specified",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.gorgias.com/",
+        "https://developers.gorgias.com",
+        "https://docs.gorgias.com/en-US"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:47+00:00"
+    },
+    {
+      "id": "248a1f",
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "hint": "gladly.com",
+      "result": {
+        "description": "Gladly is a customer experience AI purpose-built to engage customers rather than deflect them, treating customers like people, not problems.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://developer.gladly.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "Gladly provides REST APIs and other tools for integration, but the extent of customization and control is unclear.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.gladly.ai/",
+        "https://developer.gladly.com",
+        "https://developer.gladly.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:29:39+00:00"
+    },
+    {
+      "id": "df0ba7",
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "hint": "slack.com",
+      "result": {
+        "description": "Slack connects your team and multiplies what they can do with Slackbot, providing features such as channels, messaging, huddles, and AI-powered agents",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "Insufficient information about the API",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://slack.com/intl/en-in/",
+        "https://developers.slack.com",
+        "https://docs.slack.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:29:42+00:00"
+    },
+    {
+      "id": "ac30e0",
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "hint": "twilio.com",
+      "result": {
+        "description": "Twilio connects communication channels, customer context, and AI on one flexible platform.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://www.twilio.com/docs",
+        "access": "trial",
+        "access_evidence_url": "https://www.twilio.com/en-us",
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://www.twilio.com/en-us",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Twilio provides extensive public APIs for messaging, voice, email, and conversation intelligence, enabling integration with AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.twilio.com/en-us",
+        "https://developers.twilio.com/series/twilio-developers-hub/landing_page",
+        "https://www.twilio.com/docs"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:51+00:00"
+    },
+    {
+      "id": "ab99d0",
+      "name": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "hint": "zoho.com/cliq",
+      "result": {
+        "description": "Team chat & communication software for businesses that streamlines business communication and fuels effortless conversations within teams and external stakeholders through organization, automation, and AI.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://www.zoho.com/cliq/",
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://www.zoho.com/developer/",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://www.zoho.com/developer/",
+        "buildability": "ready",
+        "buildability_reason": "Zoho Cliq has a developer platform with APIs and a range of customizations available for businesses",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.zoho.com/cliq/",
+        "https://www.zoho.com/developer/",
+        "https://docs.zoho.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:29:53+00:00"
+    },
+    {
+      "id": "02477f",
+      "name": "Lark (Larksuite)",
+      "category": "Communications and Messaging",
+      "hint": "open.larksuite.com",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No API information found",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://open.larksuite.com",
+        "https://accounts.larksuite.com/accounts/page/login?app_id=2&no_trap=1&query_scope=all&redirect_uri=https%3A%2F%2Fdevelopers.larksuite.com%2Fdrive%2Fhome%2F%3Flogin_redirect_times%3D1",
+        "https://accounts.larksuite.com/accounts/page/login?app_id=2&no_trap=1&query_scope=all&redirect_uri=https%3A%2F%2Fdocs.larksuite.com%2Fdrive%2Fhome%2F%3Flogin_redirect_times%3D1"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:30:14+00:00"
+    },
+    {
+      "id": "d62bbb",
+      "name": "Pumble",
+      "category": "Communications and Messaging",
+      "hint": "pumble.com",
+      "result": {
+        "description": "The all-in-one team communication app to send messages and files, start video conferencing, and invite partners to collaborate.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://pumble.com",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": "https://docs.pumble.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://pumble.com",
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "Insufficient information about API and authentication methods",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://pumble.com",
+        "https://pumble.com/login?identifier=developers",
+        "https://docs.pumble.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:30:16+00:00"
+    },
+    {
+      "id": "ad10aa",
+      "name": "Discord",
+      "category": "Communications and Messaging",
+      "hint": "discord.com",
+      "result": {
+        "description": "A group chat platform that lets users talk, voice/video call, stream, play games and build communities.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://docs.discord.com/developers/intro",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public developer documentation and API reference indicate a usable API for building integrations.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://discord.com",
+        "https://docs.discord.com/developers/intro",
+        "https://discord.com/developers"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:51+00:00"
+    },
+    {
+      "id": "7c4df5",
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "hint": "core.telegram.org",
+      "result": {
+        "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://core.telegram.org",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://core.telegram.org",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public Bot API is free, uses a simple HTTPS interface, and supports sending and receiving messages, enabling AI\u2011agent integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://core.telegram.org",
+        "https://core.telegram.org/bots",
+        "https://telegram.org"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:14:52+00:00"
+    },
+    {
+      "id": "d960e2",
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "hint": "developers.facebook.com/docs/whatsapp",
+      "result": {
+        "description": "WhatsApp Business Platform allows businesses to communicate with customers, manage messaging accounts, and integrate with other Meta technologies.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "The WhatsApp Business Platform provides APIs for messaging, authentication, and other features, but the documentation does not explicitly state that it can be used to back an AI-agent toolkit.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview",
+        "https://developers.facebook.com",
+        "https://developers.facebook.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:30:46+00:00"
+    },
+    {
+      "id": "d096cf",
+      "name": "Aircall",
+      "category": "Communications and Messaging",
+      "hint": "aircall.io",
+      "result": {
+        "description": "Aircall is an AI-powered customer communications platform that handles customer interactions end to end, bringing together intelligent voice agents, automated workflows, and adaptive real-time coaching at scale.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developer.aircall.io",
+        "access": "self_serve",
+        "access_evidence_url": "https://aircall.io",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.aircall.io",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Aircall provides a well-documented Public API and supports webhooks for automating workflows.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://aircall.io",
+        "https://developer.aircall.io",
+        "https://developer.aircall.io/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:30:54+00:00"
+    },
+    {
+      "id": "7591e5",
+      "name": "Vonage",
+      "category": "Communications and Messaging",
+      "hint": "developer.vonage.com",
+      "result": {
+        "description": "Vonage APIs allow you to connect people around the world and automate voice interactions using AI technologies, send smart voice notifications, create IVRs and Voice Bots, and more.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.vonage.com/en/home",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "The Vonage Voice API is the easiest way to build high-quality voice applications in the Cloud!",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.vonage.com/en/home",
+        "https://developer.vonage.com/en/documentation",
+        "https://ui.idp.vonage.com/ui/auth/login?context=eyJoeWRyYUZsb3ciOiI0MzJlYjRhYy1kMzg0LTRlMTEtOTM1Yy01YmMyMDJiZWYzNmIiLCJzdWJqZWN0IjoiIiwiZm9yY2VJZFAiOiIiLCJvaWRjQ29udGV4dCI6eyJhY3JfdmFsdWVzIjpudWxsLCJ1aV9sb2NhbGVzIjpudWxsfSwiY2xpZW50SUQiOiJkYXNoYm9hcmQtdm5nIiwicmVnaXN0cmF0aW9uRmxvdyI6IiIsImxvZ2luRmxvdyI6Ik1ZdlRtY0EzMGVqN3RubXM5cTNRRmtnRnNZVkIwY0FvQTREakJSMnovbzdRK2NSRkVJYk1QQXE1aUVGcXArOVZWaGxvSFJtZVJ5TWNVWVYrK1JvYklRbmdFVHo2THA2OFRyMEhVT1hhN2FTdVJlZTVtblptS1pLamdub2VFZkVFIiwiYWRkcmVzc1ZlcmlmeSI6bnVsbCwiZm9yY2VMb2dnZWRPdXQiOmZhbHNlLCJmbG93VHJhY2VJZCI6IjkxZWEwY2IwLWVkOGUtNDRhNi1hOGEwLTRmMjg2ODk3ODIzMyIsInBob25lVmVyaWZpZWQiOmZhbHNlfQ=="
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:31:00+00:00"
+    },
+    {
+      "id": "3a0d65",
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.google.com/google-ads",
+      "result": {
+        "description": "Create and manage ads that reach users looking for your products or services on Google Search, Display, YouTube and more",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developers.google.com/google-ads",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.google.com/google-ads",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.google.com/google-ads",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Google Ads API is available for interacting directly with the Google Ads platform",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.google.com/google-ads",
+        "https://developers.google.com",
+        "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S1227106407%3A1783589481607481&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvx_pSIb0IMEvALHdNz0x7YfOswS09Jqs1PM0MYguDgRn7nocdDJilWuoRhGgIxlIeXqUAIQYQ"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:31:17+00:00"
+    },
+    {
+      "id": "f8d08c",
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.facebook.com/docs/marketing-apis",
+      "result": {
+        "description": "The Meta Ads API allows developers to create, manage, and optimize ads across Facebook, Instagram, Messenger, WhatsApp, and Threads.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.facebook.com/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "The API provides extensive documentation and guides for creating, managing, and optimizing ads.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "https://developers.facebook.com",
+        "https://developers.facebook.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:31:31+00:00"
+    },
+    {
+      "id": "aa33dd",
+      "name": "LinkedIn Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "learn.microsoft.com/linkedin/marketing",
+      "result": {
+        "description": "The LinkedIn Marketing Platform helps businesses grow by building technology to reach, engage, and convert professional audiences at scale.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-06",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "APIs are listed across many domains but the documentation excerpt provides no details on authentication or access requirements, limiting immediate buildability.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-06",
+        "https://developer.microsoft.com/en-us/",
+        "https://learn.microsoft.com/en-us/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:15:21+00:00"
+    },
+    {
+      "id": "ae9e2d",
+      "name": "GoHighLevel",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "highlevel.stoplight.io",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No API documentation found for GoHighLevel",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://highlevel.stoplight.io",
+        "https://developers.stoplight.io",
+        "https://docs.stoplight.io"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:31:34+00:00"
+    },
+    {
+      "id": "a394a7",
+      "name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "mailchimp.com/developer",
+      "result": {
+        "description": "Mailchimp powers timely, relevant marketing campaigns with custom data pulled directly from an app, and sends targeted and event-driven messages via the API or SMTP, with best-in-class deliverability.",
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "auth_evidence_url": "https://mailchimp.com/developer/marketing/",
+        "access": "self_serve",
+        "access_evidence_url": "https://mailchimp.com/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://mailchimp.com/developer/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Mailchimp provides a Marketing API to power campaigns, and a Transactional API to send targeted messages, with extensive documentation and guides.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://mailchimp.com/developer/",
+        "https://mailchimp.com",
+        "https://mailchimp.com/developer/marketing/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:31:36+00:00"
+    },
+    {
+      "id": "14671b",
+      "name": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.klaviyo.com",
+      "result": {
+        "description": "Klaviyo is an AI Marketing Platform & B2C CRM that enables omnichannel marketing across email, SMS, WhatsApp, and more.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.klaviyo.com/en",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "API documentation is publicly available, allowing developers to create integrations.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://developers.klaviyo.com/en",
+        "https://help.klaviyo.com/hc/en-us",
+        "https://www.klaviyo.com/uk/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:15:49+00:00"
+    },
+    {
+      "id": "bd9e4d",
+      "name": "systeme.io",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "systeme.io",
+      "result": {
+        "description": "Systeme.io is a platform for sales funnels, email marketing, online courses, selling online, and blogging",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developer.systeme.io/reference/api",
+        "access": "self_serve",
+        "access_evidence_url": "https://systeme.io",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.systeme.io/reference/api",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "The API is well-documented and provides a comprehensive guide for developers",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://systeme.io",
+        "https://developer.systeme.io/reference",
+        "https://developer.systeme.io/reference/api"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:32:10+00:00"
+    },
+    {
+      "id": "021138",
+      "name": "Pinterest",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.pinterest.com",
+      "result": {
+        "description": "Securely plan content, manage ads, upload product feeds, and more on Pinterest",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.pinterest.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "API is available but details about auth methods and access are not provided",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://developers.pinterest.com",
+        "https://developer.pinterest.com",
+        "https://www.pinterest.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:32:27+00:00"
+    },
+    {
+      "id": "409f65",
+      "name": "Threads (Meta)",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.facebook.com/docs/threads",
+      "result": {
+        "description": "Build technologies that help people connect, find communities and grow businesses across Facebook, Instagram, Messenger, WhatsApp, and Threads",
+        "auth_methods": [
+          "oauth2",
+          "other"
+        ],
+        "auth_evidence_url": "https://developers.facebook.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.facebook.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.facebook.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "The API provides a wide range of solutions for building and growing businesses",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.facebook.com",
+        "https://developers.facebook.com/",
+        "https://www.facebook.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:32:41+00:00"
+    },
+    {
+      "id": "2ff5ab",
+      "name": "SendGrid",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "sendgrid.com",
+      "result": {
+        "description": "Provides an email API for sending transactional and marketing emails",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://www.twilio.com/docs/sendgrid",
+        "access": "trial",
+        "access_evidence_url": "https://www.twilio.com/en-us/sendgrid",
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://www.twilio.com/docs/sendgrid",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with documented endpoints and API key authentication enables integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.twilio.com/en-us/sendgrid",
+        "https://www.twilio.com/docs/sendgrid",
+        "https://app.sendgrid.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:16:18+00:00"
+    },
+    {
+      "id": "8d5964",
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "hint": "shopify.dev",
+      "result": {
+        "description": "Shopify is a commerce platform that apps extend.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "both",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://shopify.dev/docs/api",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://shopify.dev/docs/apps/build",
+        "buildability": "ready",
+        "buildability_reason": "Shopify provides both GraphQL and REST APIs and an MCP server for AI assistants.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://shopify.dev/docs",
+        "https://shopify.dev/docs/api",
+        "https://shopify.dev/docs/apps/build"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:16:46+00:00"
+    },
+    {
+      "id": "1f25a5",
+      "name": "WooCommerce",
+      "category": "Ecommerce",
+      "hint": "woocommerce.com/document/woocommerce-rest-api",
+      "result": {
+        "description": "WooCommerce is a customizable, open-source ecommerce platform built on WordPress that connects your store to external systems and services through its REST API.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "access": "self_serve",
+        "access_evidence_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.woocommerce.com/",
+        "buildability": "ready",
+        "buildability_reason": "The WooCommerce REST API is well-documented and has a wide range of endpoints for managing ecommerce functionality.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://woocommerce.com/document/woocommerce-rest-api/",
+        "https://woocommerce.com/documentation/woocommerce/",
+        "https://developer.woocommerce.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "4d44f3",
+      "name": "BigCommerce",
+      "category": "Ecommerce",
+      "hint": "developer.bigcommerce.com",
+      "result": {
+        "description": "Commerce built for momentum.",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "both",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+        "buildability": "ready",
+        "buildability_reason": "Public REST and GraphQL APIs with token authentication and extensive endpoint coverage enable AI-agent integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+        "https://www.bigcommerce.com/",
+        "https://docs.bigcommerce.com/developer/api-reference/about-our-apis"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:17:39+00:00"
+    },
+    {
+      "id": "ee7def",
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "hint": "developer.salesforce.com/docs/commerce",
+      "result": {
+        "description": "Provides a headless API to build custom e-commerce apps, from full storefronts to merchant tools.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://developer.salesforce.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.salesforce.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API and MCP tools enable direct integration for AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.salesforce.com/developer-centers/commerce-cloud",
+        "https://developer.salesforce.com",
+        "https://www.salesforce.com/in/?ir=1"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:18:08+00:00"
+    },
+    {
+      "id": "654504",
+      "name": "Magento (Adobe Commerce)",
+      "category": "Ecommerce",
+      "hint": "developer.adobe.com/commerce",
+      "result": {
+        "description": "Adobe Commerce (Magento) provides software, tools, and services to customize and extend e\u2011commerce sites for B2B and B2C, supporting multichannel, global commerce and backend integration.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://developer.adobe.com/commerce",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "partial",
+        "buildability_reason": "API-first commerce platform is mentioned but no specific endpoint or authentication details are provided.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://developer.adobe.com/commerce",
+        "https://developer.adobe.com/",
+        "https://experienceleague.adobe.com/en/docs"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:18:36+00:00"
+    },
+    {
+      "id": "07ae7a",
+      "name": "Squarespace",
+      "category": "Ecommerce",
+      "hint": "developers.squarespace.com",
+      "result": {
+        "description": "The Squarespace Developer Platform enables developers to create fully custom sites and integrate with 3rd party tools.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "APIs are mentioned but no documentation, endpoints, or auth details are provided in the text",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://developers.squarespace.com",
+        "http://developer.squarespace.com/;jsessionid=5B24EBB599AC03984490B9E657D9C931.v5-web013",
+        "https://www.squarespace.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:18:58+00:00"
+    },
+    {
+      "id": "e23aff",
+      "name": "Ecwid",
+      "category": "Ecommerce",
+      "hint": "api-docs.ecwid.com",
+      "result": {
+        "description": "Ecwid is an e\u2011commerce platform that lets merchants sell online across websites, social media, and marketplaces.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": "https://docs.ecwid.com",
+        "api_type": "both",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.ecwid.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST and JS APIs are documented, enabling integration for AI-agent toolkits.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.ecwid.com",
+        "https://developers.ecwid.com",
+        "https://www.ecwid.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:19:21+00:00"
+    },
+    {
+      "id": "df5ead",
+      "name": "Gumroad",
+      "category": "Ecommerce",
+      "hint": "gumroad.com/api",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No API documentation or details found in the provided sources",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://gumroad.com/api",
+        "https://developers.gumroad.com",
+        "https://docs.gumroad.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T09:34:48+00:00"
+    },
+    {
+      "id": "4d1821",
+      "name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "hint": "developer-docs.amazon.com/sp-api",
+      "result": {
+        "description": "Learn how to get started and build applications with Amazon's REST-based SP-API.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://developer-docs.amazon/sp-api",
+        "access": "self_serve",
+        "access_evidence_url": "https://developer-docs.amazon/sp-api",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer-docs.amazon/sp-api",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive documentation and many endpoints.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer-docs.amazon/sp-api",
+        "https://developer.amazon.com/",
+        "https://docs.amazon.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:19:43+00:00"
+    },
+    {
+      "id": "caf12c",
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "hint": "fanbasis.com",
+      "result": {
+        "description": "All-in-one software to run high-ticket, high-margin digital businesses.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API mentioned in the provided text",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.fanbasis.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:19:58+00:00"
+    },
+    {
+      "id": "f4b0b1",
+      "name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.dataforseo.com",
+      "result": {
+        "description": "Powerful API Stack For Data-Driven SEO Tools \u2013 DataForSEO",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://docs.dataforseo.com/v3/",
+        "access": "self_serve",
+        "access_evidence_url": "https://dataforseo.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.dataforseo.com/v3/",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://dataforseo.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive endpoints and self\u2011serve access enables immediate integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.dataforseo.com/v3/",
+        "https://dataforseo.com",
+        "https://docs.dataforseo.com/v3/appendix/api_errors/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:20:15+00:00"
+    },
+    {
+      "id": "728caa",
+      "name": "SE Ranking",
+      "category": "Data, SEO and Scraping",
+      "hint": "seranking.com/api",
+      "result": {
+        "description": "AI SEO Software That Gets Results",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "paid",
+        "access_evidence_url": "https://seranking.com/keyword-research-api.html",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://seranking.com/api.html",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://seranking.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive SEO endpoints enables direct integration for AI agents",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://seranking.com",
+        "https://seranking.com/api.html",
+        "https://seranking.com/keyword-research-api.html"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:20:34+00:00"
+    },
+    {
+      "id": "2c6891",
+      "name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "hint": "ahrefs.com/api",
+      "result": {
+        "description": "Access Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.",
+        "auth_methods": [
+          "api_key",
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://docs.ahrefs.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.ahrefs.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.ahrefs.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.ahrefs.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API key and OAuth2 authentication, self\u2011serve free test queries, and MCP support enable direct integration into AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.ahrefs.com",
+        "https://ahrefs.com",
+        "https://docs.ahrefs.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:20:58+00:00"
+    },
+    {
+      "id": "c26112",
+      "name": "MrScraper",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.mrscraper.com",
+      "result": {
+        "description": "MrScraper is a web scraping platform that extracts data from any website using AI-powered scrapers, manual workflows, residential proxies, and API integrations.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://docs.mrscraper.com/docs/getting-started/quickstart",
+        "access": "self_serve",
+        "access_evidence_url": "https://mrscraper.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.mrscraper.com/docs/getting-started/quickstart",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "buildability": "ready",
+        "buildability_reason": "Provides API endpoints for scraping, proxy management, and predefined marketplace APIs with code examples.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.mrscraper.com/docs/getting-started/overview",
+        "https://mrscraper.com",
+        "https://docs.mrscraper.com/docs/getting-started/quickstart"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "9850e8",
+      "name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.apify.com",
+      "result": {
+        "description": "Apify is all about Actors\u2014a new way to package your code to make it easy to share, integrate, and build upon.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.apify.com",
+        "buildability": "partial",
+        "buildability_reason": "API references and SDKs exist but access methods and breadth are unspecified",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://docs.apify.com",
+        "https://docs.apify.com/",
+        "https://apify.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "bb2230",
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "hint": "firecrawl.dev",
+      "result": {
+        "description": "Firecrawl provides an API to search, scrape, and interact with web pages for AI agents.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://www.firecrawl.dev/",
+        "access": "self_serve",
+        "access_evidence_url": "https://www.firecrawl.dev/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.firecrawl.dev/introduction",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.firecrawl.dev/introduction",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API key authentication and full documentation enables immediate integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/introduction",
+        "https://docs.firecrawl.dev/features/monitoring-web-scale?utm_source=firecrawl-web&utm_medium=banner&utm_campaign=web-scale-monitor-launch"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:22:12+00:00"
+    },
+    {
+      "id": "93fd5a",
+      "name": "Bright Data",
+      "category": "Data, SEO and Scraping",
+      "hint": "brightdata.com",
+      "result": {
+        "description": "Bright Data is a web data platform that helps you collect, process and scale access to public web data.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://brightdata.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://brightdata.com/products/discover-api",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.brightdata.com/introduction",
+        "buildability": "ready",
+        "buildability_reason": "The platform provides a range of APIs and tools for web data collection and processing.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://brightdata.com",
+        "https://docs.brightdata.com/introduction",
+        "https://brightdata.com/products/discover-api"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "048023",
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "hint": "github.com/sherlock-project/sherlock",
+      "result": {
+        "description": "Hunt down social media accounts by username across 400+ social networks",
+        "auth_methods": [
+          "none"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://github.com/sherlock-project/sherlock",
+        "api_type": "none",
+        "api_breadth": "none",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "The tool provides a CLI without a public API, preventing direct integration into an AI-agent toolkit",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://github.com/sherlock-project/sherlock",
+        "https://developers.github.com",
+        "https://docs.github.com/en"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:23:11+00:00"
+    },
+    {
+      "id": "a964df",
+      "name": "Waterfall.io",
+      "category": "Data, SEO and Scraping",
+      "hint": "waterfall.io",
+      "result": {
+        "description": "Provides B2B data enrichment APIs to find contacts, verify emails, retrieve phone numbers, and track job changes.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://docs.waterfall.io/v1/introduction",
+        "access": "partner_gated",
+        "access_evidence_url": "https://docs.waterfall.io/v1/api-keys-overview",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.waterfall.io/v1/introduction",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "The API is fully documented with REST endpoints and API\u2011key authentication, enabling integration once access is granted.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.waterfall.io/",
+        "https://docs.waterfall.io/v1/introduction",
+        "https://docs.waterfall.io/v1/api-keys-overview"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:23:40+00:00"
+    },
+    {
+      "id": "c84953",
+      "name": "Clay",
+      "category": "Data, SEO and Scraping",
+      "hint": "clay.com",
+      "result": {
+        "description": "Build systems to grow revenue",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "trial",
+        "access_evidence_url": "https://www.clay.com/",
+        "api_type": "unknown",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://developers.clay.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developers.clay.com",
+        "buildability": "ready",
+        "buildability_reason": "Public API with searchable data, routines and workflow primitives enables integration with AI agents",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.clay.com/",
+        "https://developers.clay.com",
+        "https://university.clay.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:24:02+00:00"
+    },
+    {
+      "id": "005da3",
+      "name": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.github.com/rest",
+      "result": {
+        "description": "You can create a repository on GitHub to store and collaborate on your project's files, then manage the repository's name and location.",
+        "auth_methods": [
+          "basic",
+          "oauth2",
+          "token"
+        ],
+        "auth_evidence_url": "https://docs.github.com/en/rest",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.github.com/en/rest",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.github.com/en/rest",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive endpoints and documented authentication methods enables building an AI-agent toolkit.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.github.com/en/rest",
+        "https://developers.github.com",
+        "https://docs.github.com/en"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:24:32+00:00"
+    },
+    {
+      "id": "79f7e4",
+      "name": "Vercel",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "vercel.com/docs/rest-api",
+      "result": {
+        "description": "Agentic Infrastructure - Vercel",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://vercel.com/login?next=%2Fdevelopers",
+        "access": "self_serve",
+        "access_evidence_url": "https://vercel.com/signup?next=%2Fdevelopers",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://vercel.com",
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "API and MCP are mentioned but no public API documentation or endpoints are provided.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://vercel.com",
+        "https://vercel.com/login?next=%2Fdevelopers",
+        "https://vercel.com/signup?next=%2Fdevelopers"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:25:00+00:00"
+    },
+    {
+      "id": "d407ad",
+      "name": "Netlify",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.netlify.com/api",
+      "result": {
+        "description": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Publicly documented REST API with OAuth2 authentication and broad endpoint coverage for site deployment and management.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "https://developers.netlify.com",
+        "https://docs.netlify.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:25:21+00:00"
+    },
+    {
+      "id": "8b38b4",
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "developers.cloudflare.com/api",
+      "result": {
+        "description": "Build and deploy serverless functions and full-stack apps on Cloudflare's global network.",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://developers.cloudflare.com/api/",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.cloudflare.com/api/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Comprehensive public REST API with token authentication enables building AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.cloudflare.com/api/",
+        "https://developers.cloudflare.com",
+        "https://developers.cloudflare.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:25:37+00:00"
+    },
+    {
+      "id": "4fa167",
+      "name": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "supabase.com/docs",
+      "result": {
+        "description": "Supabase provides a full Postgres database for every project with Realtime functionality, database backups, extensions, and more.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://supabase.com/docs",
+        "access": "unknown",
+        "access_evidence_url": "https://supabase.com/docs",
+        "api_type": "both",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://supabase.com/docs",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://supabase.com/docs",
+        "buildability": "ready",
+        "buildability_reason": "Public REST and GraphQL APIs with OAuth authentication are documented, enabling integration for AI-agent toolkits.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://supabase.com/docs",
+        "https://supabase.com",
+        "https://supabase.com/docs#docs-content-container"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:26:04+00:00"
+    },
+    {
+      "id": "0777b2",
+      "name": "Neo4j",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "neo4j.com/docs/api",
+      "result": {
+        "description": "Store and query connected data at scale",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://neo4j.com",
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API information provided",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://neo4j.com",
+        "https://neo4j.com/developer/",
+        "https://neo4j.com/blog/developer/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:26:28+00:00"
+    },
+    {
+      "id": "e7d532",
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.snowflake.com",
+      "result": {
+        "description": "Simplify Enterprise Data and AI From ingesting and processing data to analyzing and modeling it, to building and sharing data and AI applications, Snowflake helps you innovate faster and do more with your data.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "trial",
+        "access_evidence_url": "https://docs.snowflake.com/en/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://www.snowflake.com/en/developers/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Publicly documented SQL API enables integration for AI\u2011agent toolkit.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.snowflake.com/en/",
+        "https://www.snowflake.com/en/",
+        "https://www.snowflake.com/en/developers/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:26:31+00:00"
+    },
+    {
+      "id": "a667de",
+      "name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "mongodb.com/docs/atlas/api",
+      "result": {
+        "description": "One data platform that combines operational data, vectors, and streaming data in a unified platform.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": "https://www.mongodb.com/docs/atlas/api/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public API documentation is listed for Atlas, indicating an accessible programmatic interface.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://www.mongodb.com/docs/atlas/api/",
+        "https://www.mongodb.com/docs/",
+        "https://www.mongodb.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:27:01+00:00"
+    },
+    {
+      "id": "078987",
+      "name": "Datadog",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.datadoghq.com/api",
+      "result": {
+        "description": "The integrated platform for monitoring & security",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.datadoghq.com/api/latest/",
+        "buildability": "ready",
+        "buildability_reason": "API reference for AI agents is provided, enabling integration",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.datadoghq.com/account/login?next=%2F",
+        "https://docs.datadoghq.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:27:32+00:00"
+    },
+    {
+      "id": "5e1a01",
+      "name": "Sentry",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.sentry.io/api",
+      "result": {
+        "description": "Sentry provides end-to-end distributed tracing, enabling developers to identify and debug performance issues and errors across their systems and services.",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://docs.sentry.io/api/",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.sentry.io/api/",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.sentry.io",
+        "buildability": "ready",
+        "buildability_reason": "Public API with token authentication and MCP server support enables programmatic integration for AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.sentry.io/api/",
+        "https://developers.sentry.io/auth/login/developers/",
+        "https://docs.sentry.io"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:27:55+00:00"
+    },
+    {
+      "id": "7cb6e8",
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "hint": "developers.notion.com",
+      "result": {
+        "description": "The AI workspace that works for you.",
+        "auth_methods": [
+          "oauth2",
+          "api_key",
+          "token"
+        ],
+        "auth_evidence_url": "https://developers.notion.com/guides/get-started/overview",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.notion.com/guides/get-started/overview",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.notion.com/guides/get-started/overview",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developers.notion.com/guides/get-started/overview",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with OAuth2 and token authentication enables building AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.notion.com/guides/get-started/overview",
+        "https://www.notion.com/",
+        "https://app.notion.com/developers"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:28:09+00:00"
+    },
+    {
+      "id": "f9f8f8",
+      "name": "Airtable",
+      "category": "Productivity and Project Management",
+      "hint": "airtable.com/developers",
+      "result": {
+        "description": "Build Enterprise-ready AI Workflows, Apps & Agents",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_thin_docs",
+        "buildability_reason": "API mentioned but no documentation details provided",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://airtable.com/developers",
+        "https://airtable.com/developers/web",
+        "https://www.airtable.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:28:24+00:00"
+    },
+    {
+      "id": "cb664e",
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "hint": "developers.linear.app",
+      "result": {
+        "description": "Create issues via URL",
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "auth_evidence_url": "https://linear.app/developers",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "graphql",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public GraphQL API with OAuth2 and API key authentication is documented, enabling integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://linear.app/developers",
+        "https://linear.app/docs",
+        "https://api.linear.app"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:28:37+00:00"
+    },
+    {
+      "id": "6b7054",
+      "name": "Jira",
+      "category": "Productivity and Project Management",
+      "hint": "developer.atlassian.com",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No API information provided in source",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://developer.atlassian.com",
+        "https://developer.atlassian.com/",
+        "https://docs.atlassian.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:28:47+00:00"
+    },
+    {
+      "id": "c84f8c",
+      "name": "Asana",
+      "category": "Productivity and Project Management",
+      "hint": "developers.asana.com",
+      "result": {
+        "description": "Work & Project Management for Human-Agent Teams",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://developers.asana.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.asana.com",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public API with token authentication and documentation enables building AI-agent integrations",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developers.asana.com",
+        "https://asana.com/developers",
+        "https://asana.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:28:57+00:00"
+    },
+    {
+      "id": "ac47d2",
+      "name": "Monday.com",
+      "category": "Productivity and Project Management",
+      "hint": "developer.monday.com",
+      "result": {
+        "description": "The first 100% open AI work platform to connect your enterprise data, automate any workflow, customize every surface, and turn any AI agent into a teammate.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developer.monday.com",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "graphql",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.monday.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.monday.com",
+        "buildability": "ready",
+        "buildability_reason": "Public GraphQL API is documented and accessible for building AI\u2011agent integrations.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.monday.com",
+        "https://monday.com/",
+        "https://monday.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:29:31+00:00"
+    },
+    {
+      "id": "267779",
+      "name": "ClickUp",
+      "category": "Productivity and Project Management",
+      "hint": "clickup.com/api",
+      "result": {
+        "description": "ClickUp is a productivity platform that maximizes productivity by combining software, AI, and humans.",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://developer.clickup.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developer.clickup.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.clickup.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.clickup.com",
+        "buildability": "ready",
+        "buildability_reason": "Public API specification and MCP server are documented, enabling AI-agent integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.clickup.com",
+        "https://developers.clickup.com",
+        "https://clickup.com"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:29:37+00:00"
+    },
+    {
+      "id": "193536",
+      "name": "Coda",
+      "category": "Productivity and Project Management",
+      "hint": "coda.io/developers",
+      "result": {
+        "description": "The Coda API is a RESTful API that lets you programmatically interact with Coda docs: list and search docs, create new docs and copy existing ones, share and publish docs, discover pages, tables, formulas, and controls, and read, insert, upsert, update, and delete rows.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://coda.io",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://coda.io",
+        "buildability": "ready",
+        "buildability_reason": "Coda offers a comprehensive RESTful API covering docs, tables, rows, formulas, and more, enabling full integration for AI agents.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.superhuman.com/developers/apis/v1",
+        "https://coda.io",
+        "https://redocly.com/redoc"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:29:58+00:00"
+    },
+    {
+      "id": "673ee7",
+      "name": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "hint": "smartsheet.com/developers",
+      "result": {
+        "description": "Intelligent work management platform that lets users manage projects, automate workflows, and build solutions at scale",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://developers.smartsheet.com/",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.smartsheet.com/",
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developers.smartsheet.com/",
+        "buildability": "partial",
+        "buildability_reason": "API docs are available but authentication method is not specified, limiting full integration",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://developers.smartsheet.com/",
+        "https://developers.smartsheet.com",
+        "https://www.smartsheet.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:30:19+00:00"
+    },
+    {
+      "id": "86be07",
+      "name": "Harvest",
+      "category": "Productivity and Project Management",
+      "hint": "help.getharvest.com/api-v2",
+      "result": {
+        "description": "Harvest helps professional teams track time, bill clients, optimize team time, and measure performance with confidence.",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://www.getharvest.com/blog/2017/09/introducing-harvest-api-v2",
+        "access": "self_serve",
+        "access_evidence_url": "https://help.getharvest.com/api-v2/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://help.getharvest.com/api-v2/",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with token authentication and extensive endpoints enables full integration for AI-agent toolkits.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://help.getharvest.com/api-v2/",
+        "https://www.getharvest.com/",
+        "https://www.getharvest.com/blog/2017/09/introducing-harvest-api-v2"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:30:35+00:00"
+    },
+    {
+      "id": "b29351",
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "hint": "stripe.com/docs/api",
+      "result": {
+        "description": "Financial Infrastructure to Grow Your Revenue",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://docs.stripe.com/api",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.stripe.com/api",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.stripe.com/api",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API\u2011key authentication and extensive documentation",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.stripe.com/api",
+        "https://docs.stripe.com",
+        "https://stripe.com/in"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:30:54+00:00"
+    },
+    {
+      "id": "70c8a5",
+      "name": "Plaid",
+      "category": "Finance and Fintech",
+      "hint": "plaid.com/docs",
+      "result": {
+        "description": "Enabling all companies to build fintech solutions",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://plaid.com/docs/quickstart/",
+        "access": "self_serve",
+        "access_evidence_url": "https://plaid.com/docs/quickstart/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://plaid.com/docs/",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://plaid.com/docs/",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive documentation and API keys available for self\u2011service access",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://plaid.com/docs/",
+        "https://plaid.com",
+        "https://plaid.com/docs/quickstart/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:31:23+00:00"
+    },
+    {
+      "id": "904390",
+      "name": "Binance",
+      "category": "Finance and Fintech",
+      "hint": "binance-docs.github.io",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API information in provided sources",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://pages.github.com/",
+        "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll",
+        "https://jekyllrb.com/docs/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:31:54+00:00"
+    },
+    {
+      "id": "7f83e2",
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "hint": "paygent (NMI-powered)",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No API information provided in source",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://paygent.com/connect/api"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "db7edd",
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "hint": "ipayx.ai/docs",
+      "result": {
+        "description": "iPayX Protocol \u2014 FINTRAC-registered FX forensic audit layer",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API information provided",
+        "confidence": "low"
+      },
+      "sources_fetched": [
+        "https://www.ipayx.ai/docs",
+        "https://www.ipayx.ai/",
+        "https://www.ipayx.ai/api"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:32:26+00:00"
+    },
+    {
+      "id": "54ec2c",
+      "name": "QuickBooks",
+      "category": "Finance and Fintech",
+      "hint": "developer.intuit.com",
+      "result": {
+        "description": "Everything you need to power your business\u2014from books to payments to payroll, backed by AI agents and live experts, all in one place.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API information provided in the source text.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.intuit.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:32:35+00:00"
+    },
+    {
+      "id": "6b0388",
+      "name": "Xero",
+      "category": "Finance and Fintech",
+      "hint": "developer.xero.com",
+      "result": {
+        "description": "Xero provides accounting software for small businesses and sole traders, including tools for managing finances, controlling cash flow, and integrating with apps",
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developer.xero.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://www.xero.com/signup/developers/",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.xero.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://developer.xero.com",
+        "buildability": "ready",
+        "buildability_reason": "Xero provides a range of developer tools and resources, including APIs, SDKs, and documentation",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.xero.com",
+        "https://www.xero.com/",
+        "https://www.xero.com/signup/developers/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:32:54+00:00"
+    },
+    {
+      "id": "2949d2",
+      "name": "Brex",
+      "category": "Finance and Fintech",
+      "hint": "developer.brex.com",
+      "result": {
+        "description": "Brex is a unified spend platform offering corporate cards, expense management, reimbursements, travel, and bill pay for finance teams.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://developer.brex.com",
+        "access": "unknown",
+        "access_evidence_url": "https://developer.brex.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developer.brex.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public REST APIs defined with OpenAPI spec and JSON over HTTPS enable integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://developer.brex.com",
+        "https://developer.brex.com/",
+        "https://www.brex.com/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:32:54+00:00"
+    },
+    {
+      "id": "5c68b9",
+      "name": "Ramp",
+      "category": "Finance and Fintech",
+      "hint": "docs.ramp.com",
+      "result": {
+        "description": "Issue virtual cards and provision cards with precise controls for any workflow, customer, or agent.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": true,
+        "mcp_evidence_url": "https://ramp.com/developer-tools",
+        "buildability": "ready",
+        "buildability_reason": "Ramp offers an MCP server and modular APIs designed for agent integration and real-time data access.",
+        "confidence": "medium"
+      },
+      "sources_fetched": [
+        "https://docs.ramp.com",
+        "https://ramp.com/developer-tools",
+        "https://docs.ramp.com/developer-api/v1/introduction"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:33:15+00:00"
+    },
+    {
+      "id": "5b74dd",
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "hint": "pitchbook.com",
+      "result": null,
+      "sources_fetched": [],
+      "error": "no documentation pages could be fetched",
+      "researched_at": "2026-07-09T13:39:13+00:00"
+    },
+    {
+      "id": "ae76af",
+      "name": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "hint": "cloud.google.com/gemini",
+      "result": {
+        "description": "unknown",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developers.google.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.google.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.google.com",
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "ready",
+        "buildability_reason": "Public Gemini Developer API with REST endpoints and API key authentication is documented and self\u2011serve, enabling immediate integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://cloud.google.com/ai/gemini",
+        "https://developers.google.com",
+        "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2F&dsh=S1124409449%3A1783604014951566&emr=1&followup=https%3A%2F%2Fdocs.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvwKKuCv_GypqVNECtOJNo-dV5XIPOraEKT4EJwE9z9Bu7vuEgmouwv5gDzbE4x3TJUDx9u5"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:33:32+00:00"
+    },
+    {
+      "id": "5b3b04",
+      "name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "hint": "help.otter.ai",
+      "result": {
+        "description": "Otter transcribes every meeting, turning it into searchable knowledge that powers your workflow.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "unknown",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "No public API information or documentation is provided in the sources.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://otter.ai",
+        "https://otter.ai/api",
+        "https://otter.ai/developers"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:33:33+00:00"
+    },
+    {
+      "id": "152359",
+      "name": "Fathom",
+      "category": "AI, Research and Media-native",
+      "hint": "fathom.video",
+      "result": {
+        "description": "Fathom summarizes your meetings so you can focus on the conversation.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developers.fathom.ai/api-overview",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.fathom.ai/",
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://developers.fathom.ai/api-overview",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://www.fathom.ai/",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API key authentication and documentation available.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://www.fathom.ai/",
+        "https://developers.fathom.ai/",
+        "https://developers.fathom.ai/api-overview"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:33:49+00:00"
+    },
+    {
+      "id": "d6215f",
+      "name": "Consensus",
+      "category": "AI, Research and Media-native",
+      "hint": "consensus.app",
+      "result": {
+        "description": "Enables AI assistants to search over 200 million peer-reviewed academic research papers directly from the conversation",
+        "auth_methods": [
+          "oauth2"
+        ],
+        "auth_evidence_url": "https://docs.consensus.app/docs/mcp",
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.consensus.app/docs/mcp",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.consensus.app/docs/mcp",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.consensus.app/docs/mcp",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with OAuth authentication is documented and usable by MCP\u2011compatible clients",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.consensus.app/reference",
+        "https://docs.consensus.app/docs/mcp",
+        "https://dash.readme.com/to/consensus?redirect=%2Fdocs%2Fmcp"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:34:12+00:00"
+    },
+    {
+      "id": "71bb45",
+      "name": "Reducto",
+      "category": "AI, Research and Media-native",
+      "hint": "reducto.ai",
+      "result": {
+        "description": "The agentic document platform for AI teams who need production\u2011grade document processing at enterprise scale.",
+        "auth_methods": [
+          "api_key"
+        ],
+        "auth_evidence_url": "https://reducto.ai/developers",
+        "access": "self_serve",
+        "access_evidence_url": "https://reducto.ai/developers",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.reducto.ai/overview",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.reducto.ai/overview",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with API key authentication, full documentation, SDKs, and MCP server support enable immediate integration into AI\u2011agent toolkits.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://reducto.ai",
+        "https://docs.reducto.ai/overview",
+        "https://reducto.ai/developers"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:34:23+00:00"
+    },
+    {
+      "id": "fed313",
+      "name": "Devin",
+      "category": "AI, Research and Media-native",
+      "hint": "docs.devin.ai",
+      "result": {
+        "description": "Devin is an autonomous AI software engineer that can write, run and test code.",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://docs.devin.ai/get-started/devin-intro",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.devin.ai/api-reference/overview",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://docs.devin.ai/get-started/devin-intro",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with extensive documentation enables integration into AI-agent toolkits.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://docs.devin.ai/get-started/devin-intro",
+        "https://devin.ai",
+        "https://docs.devin.ai/api-reference/overview"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:34:39+00:00"
+    },
+    {
+      "id": "af4dc2",
+      "name": "higgsfield",
+      "category": "AI, Research and Media-native",
+      "hint": "higgsfield.ai/cli",
+      "result": {
+        "description": "AI Image & Video Generation for Any Agent",
+        "auth_methods": [
+          "unknown"
+        ],
+        "auth_evidence_url": "https://higgsfield.ai/cli",
+        "access": "unknown",
+        "access_evidence_url": null,
+        "api_type": "unknown",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://docs.higgsfield.ai/docs",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://higgsfield.ai/cli",
+        "buildability": "ready",
+        "buildability_reason": "Public API docs and CLI authentication flow are provided",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://higgsfield.ai/cli",
+        "https://docs.higgsfield.ai/docs",
+        "https://higgsfield.ai"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:35:00+00:00"
+    },
+    {
+      "id": "56ac76",
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "hint": "github.com/mermaid-js/mermaid-cli",
+      "result": {
+        "description": "A command-line interface (CLI) for mermaid that takes a mermaid definition file as input and generates output.",
+        "auth_methods": [
+          "none"
+        ],
+        "auth_evidence_url": null,
+        "access": "self_serve",
+        "access_evidence_url": "https://github.com/mermaid-js/mermaid-cli",
+        "api_type": "none",
+        "api_breadth": "none",
+        "api_evidence_url": null,
+        "has_mcp": null,
+        "mcp_evidence_url": null,
+        "buildability": "blocked_no_api",
+        "buildability_reason": "The product provides only a CLI tool and does not expose a public API.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://github.com/mermaid-js/mermaid-cli",
+        "https://developers.github.com",
+        "https://docs.github.com/en"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:35:16+00:00"
+    },
+    {
+      "id": "7252b1",
+      "name": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "hint": "transcriptapi.com",
+      "result": {
+        "description": "Get transcripts, search videos, browse channels, and extract playlists via REST API or YouTube MCP",
+        "auth_methods": [
+          "token"
+        ],
+        "auth_evidence_url": "https://transcriptapi.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://transcriptapi.com",
+        "api_type": "rest",
+        "api_breadth": "moderate",
+        "api_evidence_url": "https://transcriptapi.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://transcriptapi.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with authentication and documentation enables building AI agents",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://transcriptapi.com",
+        "https://transcriptapi.com/developers",
+        "https://transcriptapi.com/docs/"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:35:30+00:00"
+    },
+    {
+      "id": "f7f883",
+      "name": "Grain",
+      "category": "AI, Research and Media-native",
+      "hint": "grain.com",
+      "result": {
+        "description": "The AI notetaker for agents and teams Grain captures and enriches your meetings, then delivers them to Claude, ChatGPT, or any AI tool so your agents can do the work.",
+        "auth_methods": [
+          "oauth2",
+          "api_key"
+        ],
+        "auth_evidence_url": "https://developers.grain.com",
+        "access": "self_serve",
+        "access_evidence_url": "https://developers.grain.com",
+        "api_type": "rest",
+        "api_breadth": "broad",
+        "api_evidence_url": "https://developers.grain.com",
+        "has_mcp": true,
+        "mcp_evidence_url": "https://grain.com",
+        "buildability": "ready",
+        "buildability_reason": "Public REST API with OAuth2 and token authentication plus MCP server enables full transcript querying and AI integration.",
+        "confidence": "high"
+      },
+      "sources_fetched": [
+        "https://grain.com",
+        "https://developers.grain.com",
+        "https://developers.grain.com#grain-api"
+      ],
+      "error": null,
+      "researched_at": "2026-07-09T13:35:57+00:00"
+    }
+  ]
+}

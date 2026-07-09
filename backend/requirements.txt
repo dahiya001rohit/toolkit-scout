@@ -1,0 +1,21 @@
+# Web framework + server
+fastapi==0.115.6
+uvicorn==0.34.0
+
+# Async HTTP client — all docs fetching + Groq API calls go through this ecosystem
+httpx==0.28.1
+
+# Data validation — every LLM output is forced into these schemas
+pydantic==2.10.4
+
+# Groq LLM client (extraction + judgment calls)
+groq==0.15.0
+
+# HTML -> clean text before sending pages to the LLM
+beautifulsoup4==4.12.3
+
+# Server-Sent Events helper for the live /research streaming endpoint
+sse-starlette==2.2.1
+
+# Loads GROQ_API_KEY from .env in local dev
+python-dotenv==1.0.1

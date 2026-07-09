@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>toolkit-scout — 100 apps researched for agent-toolkit buildability</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>toolkit-scout</h1>
+  <p class="sub">One agent researched all <strong>100 apps</strong> on the list:
+     what auth each uses, whether a developer can get credentials without talking to
+     sales, how broad the public API is, and whether an MCP server already exists —
+     then judged if each could become an agent toolkit <strong>today</strong>.</p>
+  <p class="meta"><span>100 apps</span><span>10 categories</span>
+     <span>every claim carries its docs URL</span><span>2-pass verified</span></p>
+  <nav>
+    <a href="https://github.com/dahiya001rohit/toolkit-scout">source repo</a>
+    <a id="link-data" href="#">raw data (JSON)</a>
+    <a id="link-verif" href="#">verification report (JSON)</a>
+  </nav>
+</header>
+
+<!-- 1 ── THE HEADLINE: patterns first, table later -->
+<section id="patterns">
+  <h2>The patterns <span class="hint">— computed live from the data below</span></h2>
+  <div id="stat-tiles" class="tiles"></div>
+  <div class="charts">
+    <div class="chart"><h3>Buildability verdict</h3><div id="chart-verdict"></div></div>
+    <div class="chart"><h3>Auth methods</h3><div id="chart-auth"></div></div>
+    <div class="chart"><h3>Credential access</h3><div id="chart-access"></div></div>
+  </div>
+  <ul id="insights" class="insights"></ul>
+  <h3>Category × verdict matrix</h3>
+  <div class="scroll-x"><table id="matrix"></table></div>
+</section>
+
+<!-- 2 ── LIVE PROOF: research any app, right now -->
+<section id="live">
+  <h2>Try it live <span class="hint">— the same agent, on any app you type</span></h2>
+  <form id="demo-form">
+    <input id="demo-name" placeholder="App name, e.g. Calendly" maxlength="80" required>
+    <input id="demo-hint" placeholder="Docs URL hint (optional)">
+    <button type="submit">Research</button>
+  </form>
+  <div id="demo-log" class="log" hidden></div>
+  <div id="demo-result"></div>
+  <p class="hint">Single-pass research (~30–60s): URL discovery → fetch real docs →
+     schema-validated extraction. Rate-limited to 6 runs/hour per IP.</p>
+</section>
+
+<!-- 3 ── THE 100 ROWS -->
+<section id="table-section">
+  <h2>All 100 apps</h2>
+  <div class="filters">
+    <input id="f-search" placeholder="search app…">
+    <select id="f-category"><option value="">all categories</option></select>
+    <select id="f-verdict"><option value="">all verdicts</option></select>
+    <select id="f-access"><option value="">all access levels</option></select>
+    <span id="f-count" class="hint"></span>
+  </div>
+  <div class="scroll-x"><table id="apps-table">
+    <thead><tr>
+      <th>App</th><th>Category</th><th>Auth</th><th>Access</th>
+      <th>API</th><th>MCP</th><th>Verdict</th><th>Conf.</th><th>Evidence</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <div id="pager" class="pager"></div>
+</section>
+
+<!-- 4 ── THE AGENT: what was built, where humans were needed -->
+<section id="agent">
+  <h2>The agent behind this</h2>
+  <div class="cols">
+    <div class="panel">
+      <h3>How each app gets researched</h3>
+      <ol>
+        <li><strong>Find the docs</strong> — start from the given hint, try the
+            conventional homes (<code>docs.X</code>, <code>developers.X</code>,
+            <code>api.X</code>), mine api/developer links out of every page that loads,
+            and only then let the LLM suggest URLs. A wrong guess just 404s — the LLM
+            can point at pages, it can never <em>be</em> the evidence.</li>
+        <li><strong>Fetch the real pages</strong> — async httpx pulls up to three
+            documentation pages per app.</li>
+        <li><strong>Extract, grounded</strong> — the LLM must fill a strict pydantic
+            schema using only the fetched text. Not in the text → <code>unknown</code>.
+            Every field carries the URL that backs it.</li>
+        <li><strong>Checkpoint everything</strong> — each finished app is written to
+            disk immediately. Crashes and quota deaths resume; nothing restarts.</li>
+        <li><strong>Rotate models on quota</strong> — Groq's free limits are per-model,
+            so a daily-quota 429 swaps models mid-run instead of killing the batch.</li>
+      </ol>
+      <h3>Then a second, skeptical pass</h3>
+      <ol>
+        <li>Re-fetch every app's evidence pages and re-extract with an
+            <em>auditor</em> prompt on a different model.</li>
+        <li>Diff the five error-prone fields against pass 1.</li>
+        <li>A tie-break call settles each disagreement and must quote the deciding
+            sentence from the docs. Unresolvable → pass 1 stands, labelled as such.</li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h3>Where a human was needed</h3>
+      <ul>
+        <li><strong>The quota call</strong> — when Groq's daily token budget died at
+            app 27 of 100, choosing between paying, waiting a day, or building the
+            model pool was a human decision; the agent then executed it.</li>
+        <li><strong>A corrupted checkpoint</strong> — an IDE auto-format split the
+            checkpoint file mid-run. A human spotted the crash cause; the agent
+            repaired the file by stream-parsing it back together.</li>
+        <li><strong>Prompt quality</strong> — pass 1 returned lazy descriptions
+            ("a productivity app"). A human caught it; one added prompt rule fixed it.</li>
+        <li><strong>The hand-audit</strong> — a random sample was checked against the
+            live docs by a person (results in section 05).</li>
+        <li><strong>Judgment on traps</strong> — deciding that "no public API, and
+            here's the evidence" is a correct finding, not a failure to route around.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 5 ── VERIFICATION: the honest part -->
+<section id="verification">
+  <h2>How much should you trust this?</h2>
+  <div id="verif-tiles" class="tiles"></div>
+  <div id="verif-detail"></div>
+  <h3>Known misses &amp; limits (kept honestly)</h3>
+  <ul id="known-misses">
+    <li><strong>PitchBook</strong> — no documentation page could be fetched at all (site
+        blocks bots; API is partnership-gated). Reported as an evidenced failure, not guessed.</li>
+    <li>Pass 1 ran on two models (quota rotation): 27 apps on llama-3.3-70b, the rest on
+        gpt-oss-120b — disclosed because it makes rows slightly inconsistent, and exploited
+        by verifying cross-model.</li>
+    <li>Fetched text is truncated (~4k chars/page): breadth judgments lean on docs
+        landing pages more than full endpoint references.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Built with FastAPI + httpx + Groq · every claim carries the docs URL it came from ·
+     <a href="https://github.com/dahiya001rohit/toolkit-scout">github.com/dahiya001rohit/toolkit-scout</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

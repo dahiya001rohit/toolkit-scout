@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets — real keys live in .env, never in git
+.env
+
+# OS noise
+.DS_Store
+
+# local assistant settings
+.claude/
