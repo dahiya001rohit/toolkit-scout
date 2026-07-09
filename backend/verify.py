@@ -177,7 +177,7 @@ async def run_verification() -> None:
         async with sem:
             try:
                 v = await verify_app(row)
-            except LLMError as e:   # quota died mid-run: skip, resumable
+            except Exception as e:  # any failure: skip THIS app, keep batch
                 v = AppVerification(id=row.id, name=row.name,
                                     skipped=f"verify failed: {e}")
         async with lock:

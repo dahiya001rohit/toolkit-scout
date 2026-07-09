@@ -11,7 +11,7 @@ import json
 import os
 
 from dotenv import load_dotenv
-from groq import AsyncGroq, RateLimitError
+from groq import AsyncGroq, BadRequestError, RateLimitError
 from pydantic import BaseModel, ValidationError
 
 load_dotenv()  # local dev: pulls GROQ_API_KEY from .env; no-op in prod
@@ -46,11 +46,12 @@ def _get_client() -> AsyncGroq:
     return _client
 
 
-def _pick_model(prefer: str | None) -> str | None:
-    """First non-exhausted model; `prefer` (if given and alive) wins."""
+def _pick_model(prefer: str | None, skip: set[str] = frozenset()) -> str | None:
+    """First usable model; `prefer` (if alive) wins. `skip` holds models that
+    hard-failed JSON mode for THIS call only — they stay alive for others."""
     pool = ([prefer] if prefer else []) + MODEL_POOL
     for m in pool:
-        if m not in _exhausted:
+        if m not in _exhausted and m not in skip:
             return m
     return None
 
@@ -81,10 +82,11 @@ async def extract(system: str, user: str, schema: type[BaseModel],
     last_err: Exception | None = None
     attempt = 0       # validation attempts (the model's fault)
     throttles = 0     # per-minute 429 waits (nobody's fault, but capped)
+    skip: set[str] = set()   # models that hard-failed JSON mode on this call
     while attempt <= retries and throttles < 6:
-        model = _pick_model(prefer)
+        model = _pick_model(prefer, skip)
         if model is None:
-            raise LLMError(f"all models exhausted: {MODEL_POOL}")
+            raise LLMError(f"all models exhausted/skipped: {MODEL_POOL}")
         try:
             async with _semaphore:
                 resp = await _get_client().chat.completions.create(
@@ -105,6 +107,16 @@ async def extract(system: str, user: str, schema: type[BaseModel],
             else:
                 throttles += 1          # brief wait, same model
                 await asyncio.sleep(15 * throttles)
+
+        except BadRequestError as e:
+            # Groq JSON mode failed server-side (json_validate_failed): this
+            # model can't produce valid JSON for this prompt — retry the same
+            # request on the next model in the pool.
+            last_err = e
+            attempt += 1
+            skip.add(model)
+            if prefer == model:
+                prefer = None
 
         except (ValidationError, json.JSONDecodeError) as e:
             # Malformed output: show the model its own mistake and retry.
