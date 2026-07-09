@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T13:40:12+00:00",
+  "generated_at": "2026-07-09T16:30:15+00:00",
   "total": 100,
   "apps": [
     {
@@ -73,7 +73,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://developers.pipedrive.com",
         "api_type": "unknown",
         "api_breadth": "unknown",
@@ -140,7 +140,7 @@
         "api_evidence_url": null,
         "has_mcp": true,
         "mcp_evidence_url": "https://docs.twenty.com/getting-started/introduction",
-        "buildability": "blocked_thin_docs",
+        "buildability": "ready",
         "buildability_reason": "Insufficient information to determine buildability",
         "confidence": "low"
       },
@@ -193,7 +193,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://www.zoho.com/en-in/crm/",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -224,7 +224,7 @@
           "api_key"
         ],
         "auth_evidence_url": "https://developer.close.com",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://close.com",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -254,7 +254,7 @@
           "oauth2"
         ],
         "auth_evidence_url": "https://developer.copper.com",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://www.copper.com/",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -284,7 +284,7 @@
           "api_key"
         ],
         "auth_evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
-        "access": "self_serve",
+        "access": "unknown",
         "access_evidence_url": "https://api.docs.dealcloud.com/docs/apikeys",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -314,9 +314,9 @@
           "unknown"
         ],
         "auth_evidence_url": "https://developer.zendesk.com/api-reference/",
-        "access": "trial",
+        "access": "self_serve",
         "access_evidence_url": "https://developer.zendesk.com/documentation/",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "broad",
         "api_evidence_url": "https://developer.zendesk.com/api-reference/",
         "has_mcp": null,
@@ -371,17 +371,17 @@
       "result": {
         "description": "Freshdesk is an AI-powered platform for modern customer service that handles complexity while teams build connections in a central workspace.",
         "auth_methods": [
-          "unknown"
+          "oauth2"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_no_api",
+        "buildability": "ready",
         "buildability_reason": "Insufficient information about the API and its capabilities.",
         "confidence": "low"
       },
@@ -404,9 +404,9 @@
           "oauth2"
         ],
         "auth_evidence_url": "https://dev.frontapp.com/docs/welcome",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://dev.frontapp.com/docs/welcome",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "broad",
         "api_evidence_url": "https://dev.frontapp.com/docs/welcome",
         "has_mcp": true,
@@ -464,7 +464,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
         "api_type": "unknown",
         "api_breadth": "unknown",
@@ -492,7 +492,7 @@
           "api_key"
         ],
         "auth_evidence_url": "https://www.plain.com/docs/graphql/authentication",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://www.plain.com/",
         "api_type": "graphql",
         "api_breadth": "broad",
@@ -522,7 +522,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "trial",
         "access_evidence_url": null,
         "api_type": "rest",
         "api_breadth": "moderate",
@@ -589,7 +589,7 @@
         "api_evidence_url": "https://developer.gladly.com",
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "partial",
+        "buildability": "ready",
         "buildability_reason": "Gladly provides REST APIs and other tools for integration, but the extent of customization and control is unclear.",
         "confidence": "medium"
       },
@@ -609,17 +609,17 @@
       "result": {
         "description": "Slack connects your team and multiplies what they can do with Slackbot, providing features such as channels, messaging, huddles, and AI-powered agents",
         "auth_methods": [
-          "unknown"
+          "oauth2"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_no_api",
+        "buildability": "ready",
         "buildability_reason": "Insufficient information about the API",
         "confidence": "low"
       },
@@ -644,7 +644,7 @@
         "auth_evidence_url": "https://www.twilio.com/docs",
         "access": "trial",
         "access_evidence_url": "https://www.twilio.com/en-us",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "broad",
         "api_evidence_url": "https://www.twilio.com/en-us",
         "has_mcp": null,
@@ -672,7 +672,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://www.zoho.com/cliq/",
         "api_type": "rest",
         "api_breadth": "moderate",
@@ -699,17 +699,17 @@
       "result": {
         "description": "unknown",
         "auth_methods": [
-          "unknown"
+          "oauth2"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_no_api",
+        "buildability": "ready",
         "buildability_reason": "No API information found",
         "confidence": "low"
       },
@@ -732,7 +732,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "self_serve",
+        "access": "unknown",
         "access_evidence_url": "https://pumble.com",
         "api_type": "unknown",
         "api_breadth": "unknown",
@@ -822,14 +822,14 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "partner_gated",
         "access_evidence_url": null,
         "api_type": "rest",
         "api_breadth": "broad",
         "api_evidence_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview",
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "partial",
+        "buildability": "ready",
         "buildability_reason": "The WhatsApp Business Platform provides APIs for messaging, authentication, and other features, but the documentation does not explicitly state that it can be used to back an AI-agent toolkit.",
         "confidence": "medium"
       },
@@ -1035,7 +1035,7 @@
         "auth_evidence_url": "https://mailchimp.com/developer/marketing/",
         "access": "self_serve",
         "access_evidence_url": "https://mailchimp.com/",
-        "api_type": "rest",
+        "api_type": "both",
         "api_breadth": "broad",
         "api_evidence_url": "https://mailchimp.com/developer/",
         "has_mcp": null,
@@ -1060,12 +1060,12 @@
       "result": {
         "description": "Klaviyo is an AI Marketing Platform & B2C CRM that enables omnichannel marketing across email, SMS, WhatsApp, and more.",
         "auth_methods": [
-          "unknown"
+          "api_key"
         ],
         "auth_evidence_url": null,
         "access": "self_serve",
         "access_evidence_url": "https://developers.klaviyo.com/en",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
@@ -1150,11 +1150,10 @@
       "result": {
         "description": "Build technologies that help people connect, find communities and grow businesses across Facebook, Instagram, Messenger, WhatsApp, and Threads",
         "auth_methods": [
-          "oauth2",
-          "other"
+          "unknown"
         ],
         "auth_evidence_url": "https://developers.facebook.com",
-        "access": "self_serve",
+        "access": "unknown",
         "access_evidence_url": "https://developers.facebook.com",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -1214,7 +1213,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
         "api_type": "both",
         "api_breadth": "broad",
@@ -1309,7 +1308,7 @@
         "api_type": "rest",
         "api_breadth": "moderate",
         "api_evidence_url": "https://developer.salesforce.com",
-        "has_mcp": true,
+        "has_mcp": null,
         "mcp_evidence_url": "https://developer.salesforce.com",
         "buildability": "ready",
         "buildability_reason": "Public REST API and MCP tools enable direct integration for AI agents.",
@@ -1334,7 +1333,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "self_serve",
+        "access": "unknown",
         "access_evidence_url": "https://developer.adobe.com/commerce",
         "api_type": "unknown",
         "api_breadth": "unknown",
@@ -1364,14 +1363,14 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
         "api_type": "unknown",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_thin_docs",
+        "buildability": "ready",
         "buildability_reason": "APIs are mentioned but no documentation, endpoints, or auth details are provided in the text",
         "confidence": "low"
       },
@@ -1394,7 +1393,7 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": "https://docs.ecwid.com",
         "api_type": "both",
         "api_breadth": "broad",
@@ -1421,17 +1420,17 @@
       "result": {
         "description": "unknown",
         "auth_methods": [
-          "unknown"
+          "api_key"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_no_api",
+        "buildability": "ready",
         "buildability_reason": "No API documentation or details found in the provided sources",
         "confidence": "low"
       },
@@ -1573,7 +1572,7 @@
           "oauth2"
         ],
         "auth_evidence_url": "https://docs.ahrefs.com",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://docs.ahrefs.com",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -1633,14 +1632,14 @@
           "unknown"
         ],
         "auth_evidence_url": null,
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
         "api_type": "unknown",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": true,
         "mcp_evidence_url": "https://docs.apify.com",
-        "buildability": "partial",
+        "buildability": "ready",
         "buildability_reason": "API references and SDKs exist but access methods and breadth are unspecified",
         "confidence": "medium"
       },
@@ -1720,7 +1719,7 @@
       "result": {
         "description": "Hunt down social media accounts by username across 400+ social networks",
         "auth_methods": [
-          "none"
+          "unknown"
         ],
         "auth_evidence_url": null,
         "access": "self_serve",
@@ -1842,7 +1841,8 @@
       "result": {
         "description": "Agentic Infrastructure - Vercel",
         "auth_methods": [
-          "unknown"
+          "oauth2",
+          "other"
         ],
         "auth_evidence_url": "https://vercel.com/login?next=%2Fdevelopers",
         "access": "self_serve",
@@ -1852,7 +1852,7 @@
         "api_evidence_url": null,
         "has_mcp": true,
         "mcp_evidence_url": "https://vercel.com",
-        "buildability": "blocked_thin_docs",
+        "buildability": "partial",
         "buildability_reason": "API and MCP are mentioned but no public API documentation or endpoints are provided.",
         "confidence": "medium"
       },
@@ -1935,7 +1935,7 @@
           "oauth2"
         ],
         "auth_evidence_url": "https://supabase.com/docs",
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": "https://supabase.com/docs",
         "api_type": "both",
         "api_breadth": "broad",
@@ -2062,7 +2062,7 @@
         "api_evidence_url": null,
         "has_mcp": true,
         "mcp_evidence_url": "https://docs.datadoghq.com/api/latest/",
-        "buildability": "ready",
+        "buildability": "blocked_gated",
         "buildability_reason": "API reference for AI agents is provided, enabling integration",
         "confidence": "high"
       },
@@ -2087,7 +2087,7 @@
         "auth_evidence_url": "https://docs.sentry.io/api/",
         "access": "self_serve",
         "access_evidence_url": "https://docs.sentry.io/api/",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": true,
@@ -2117,12 +2117,12 @@
           "token"
         ],
         "auth_evidence_url": "https://developers.notion.com/guides/get-started/overview",
-        "access": "self_serve",
+        "access": "unknown",
         "access_evidence_url": "https://developers.notion.com/guides/get-started/overview",
         "api_type": "rest",
         "api_breadth": "broad",
         "api_evidence_url": "https://developers.notion.com/guides/get-started/overview",
-        "has_mcp": true,
+        "has_mcp": null,
         "mcp_evidence_url": "https://developers.notion.com/guides/get-started/overview",
         "buildability": "ready",
         "buildability_reason": "Public REST API with OAuth2 and token authentication enables building AI agents.",
@@ -2149,12 +2149,12 @@
         "auth_evidence_url": null,
         "access": "unknown",
         "access_evidence_url": null,
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_thin_docs",
+        "buildability": "partial",
         "buildability_reason": "API mentioned but no documentation details provided",
         "confidence": "medium"
       },
@@ -2174,8 +2174,7 @@
       "result": {
         "description": "Create issues via URL",
         "auth_methods": [
-          "oauth2",
-          "api_key"
+          "unknown"
         ],
         "auth_evidence_url": "https://linear.app/developers",
         "access": "unknown",
@@ -2185,7 +2184,7 @@
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "ready",
+        "buildability": "blocked_thin_docs",
         "buildability_reason": "Public GraphQL API with OAuth2 and API key authentication is documented, enabling integration.",
         "confidence": "high"
       },
@@ -2204,7 +2203,9 @@
       "hint": "developer.atlassian.com",
       "result": {
         "description": "unknown",
-        "auth_methods": [],
+        "auth_methods": [
+          "unknown"
+        ],
         "auth_evidence_url": null,
         "access": "unknown",
         "access_evidence_url": null,
@@ -2238,7 +2239,7 @@
         "auth_evidence_url": "https://developers.asana.com",
         "access": "self_serve",
         "access_evidence_url": "https://developers.asana.com",
-        "api_type": "unknown",
+        "api_type": "rest",
         "api_breadth": "unknown",
         "api_evidence_url": null,
         "has_mcp": null,
@@ -2363,7 +2364,7 @@
         "api_evidence_url": null,
         "has_mcp": true,
         "mcp_evidence_url": "https://developers.smartsheet.com/",
-        "buildability": "partial",
+        "buildability": "ready",
         "buildability_reason": "API docs are available but authentication method is not specified, limiting full integration",
         "confidence": "medium"
       },
@@ -2513,7 +2514,7 @@
         "api_evidence_url": null,
         "has_mcp": null,
         "mcp_evidence_url": null,
-        "buildability": "blocked_no_api",
+        "buildability": "blocked_gated",
         "buildability_reason": "No API information provided in source",
         "confidence": "low"
       },
@@ -2589,8 +2590,7 @@
       "result": {
         "description": "Xero provides accounting software for small businesses and sole traders, including tools for managing finances, controlling cash flow, and integrating with apps",
         "auth_methods": [
-          "oauth2",
-          "api_key"
+          "oauth2"
         ],
         "auth_evidence_url": "https://developer.xero.com",
         "access": "self_serve",
@@ -2693,7 +2693,7 @@
           "api_key"
         ],
         "auth_evidence_url": "https://developers.google.com",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://developers.google.com",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -2813,7 +2813,7 @@
           "api_key"
         ],
         "auth_evidence_url": "https://reducto.ai/developers",
-        "access": "self_serve",
+        "access": "trial",
         "access_evidence_url": "https://reducto.ai/developers",
         "api_type": "rest",
         "api_breadth": "broad",
@@ -2873,7 +2873,7 @@
           "unknown"
         ],
         "auth_evidence_url": "https://higgsfield.ai/cli",
-        "access": "unknown",
+        "access": "self_serve",
         "access_evidence_url": null,
         "api_type": "unknown",
         "api_breadth": "broad",
@@ -2935,7 +2935,7 @@
         "auth_evidence_url": "https://transcriptapi.com",
         "access": "self_serve",
         "access_evidence_url": "https://transcriptapi.com",
-        "api_type": "rest",
+        "api_type": "both",
         "api_breadth": "moderate",
         "api_evidence_url": "https://transcriptapi.com",
         "has_mcp": true,
