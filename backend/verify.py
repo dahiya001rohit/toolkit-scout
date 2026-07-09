@@ -160,6 +160,16 @@ def _apply(done: dict[str, AppResearch], vs: list[AppVerification]) -> None:
     print(f"agreement {agreed}/{total}, corrected {corrected} field(s)")
 
 
+RECHECK_ROUNDS = 3      # initial pass + up to 2 automatic recheck rounds
+RECHECK_WAIT = 75       # seconds between rounds: lets per-minute quotas refill
+
+
+def _retryable(v: AppVerification) -> bool:
+    """Transient LLM failures (throttle/quota) deserve an automatic recheck;
+    permanent skips (no pass-1 result, dead evidence pages) do not."""
+    return bool(v.skipped and v.skipped.startswith("verify failed"))
+
+
 async def run_verification() -> None:
     done = load_checkpoints()
     seen: dict[str, AppVerification] = {}
@@ -168,10 +178,8 @@ async def run_verification() -> None:
             if line.strip():
                 v = AppVerification.model_validate_json(line)
                 seen[v.id] = v
-    todo = [r for r in done.values() if r.id not in seen]
-    print(f"{len(seen)} verified, {len(todo)} to verify")
 
-    sem, lock = asyncio.Semaphore(6), asyncio.Lock()
+    sem, lock = asyncio.Semaphore(4), asyncio.Lock()
 
     async def worker(row: AppResearch) -> None:
         async with sem:
@@ -188,7 +196,17 @@ async def run_verification() -> None:
         print(f"[{len(seen)}/{len(done)}] {row.name}: "
               f"{v.skipped or f'{n} disagreement(s)'}")
 
-    await asyncio.gather(*(worker(r) for r in todo))
+    for rnd in range(1, RECHECK_ROUNDS + 1):
+        todo = [r for r in done.values()
+                if r.id not in seen or _retryable(seen[r.id])]
+        if not todo:
+            break
+        if rnd == 1:
+            print(f"{len(seen)} verified, {len(todo)} to verify")
+        else:
+            print(f"recheck round {rnd}: {len(todo)} transient failure(s)")
+            await asyncio.sleep(RECHECK_WAIT)
+        await asyncio.gather(*(worker(r) for r in todo))
     _apply(done, list(seen.values()))
 
 
