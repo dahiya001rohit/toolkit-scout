@@ -2,7 +2,7 @@
    backend, computes every number live (nothing hardcoded), renders charts,
    matrix, filterable table, verification stats, and drives the SSE demo. */
 
-const API = window.TS_API || "http://localhost:8000";  // patched at deploy
+const API = window.TS_API || 'https://toolkit-scout.onrender.com';  // patched at deploy
 const VERDICTS = ["ready", "partial", "blocked_thin_docs", "blocked_gated",
                   "blocked_no_api", "error"];
 const VCOLOR = { ready: "var(--ok)", partial: "var(--part)",
